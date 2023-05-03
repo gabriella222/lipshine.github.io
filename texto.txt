@@ -1,0 +1,45 @@
+-Objetivo do Projeto
+Site de venda de batons feitos delicadamente, para bocas delicadas.
+
+-Produtos/Serviços
+Serão expostos batons de variadas cores, com os ingredientes, tipos e sabores.
+Será por compra online
+
+
+-Funcionalidades
+Terá cadastro de usuário, area de compra, area demosntrativa dos batons
+
+
+-Outras Informações
+Por enquanto não.
+
+
+Conteúdo Briefing
+1. NECESSIDADES DO CLIENTE
+É uma empresa de batons de uso facilitado, com diversas cores vibrantes, algumas 
+mais neutros para as discretas e os mais sedutores para as mais provocativas.
+Queremos um site clean, que demonstre nosso produto que nossos cliente possam
+comprar sem problemas
+
+Atualmente não possuimos site, temos vendas pelo nossas redes sociais
+
+Queremos amplicar nossa marca e produtos.
+
+
+2 SOBRE A EMPRESA
+Vendemos batom a 3 anos, queremos mostrar nossas linhas aos clientes e as variedades 
+de tons disponiveis. Será mostrado o processo e o proprio usuário poderá realizar a compra
+
+Já estão familiarizados, já temos uma boa clientela que já compra conosco
+
+Para dados de contato queremos o maximo, nome, sobrenome, cpf, endereço e dados da compra
+
+
+Nossos pontos fortes são a qualidade do produto, variedade, rapidez da empres e oferecimento
+do serviço
+
+
+3. SOBRE O SITE
+
+Queremos apresentar nossos batons, dando destaque nosso novo lançado, demostra nossas
+linhas e cores disponiveis. As informações devem ser lançadas 

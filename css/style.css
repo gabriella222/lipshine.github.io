@@ -1,0 +1,14 @@
+
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+
+/*Home*/
+@import "./home/starshine.css";
+
+/*Produto*/
+@import "./produto/produto.css";
+
+/*Compra*/
+@import "./compra/compra.css";

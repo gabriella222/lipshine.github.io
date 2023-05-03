@@ -1,0 +1,48 @@
+.starshine {
+  display: block;
+  max-width: 100%;
+}
+
+.lancamento-principal {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 180px;
+  padding-bottom: 100px;
+}
+
+.tt-starshine {
+  font-size: 6rem;
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: 400;
+  color: var(--cor-r10);
+}
+
+.star-nova {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: var(--cor-rd1);
+  padding-left: 300px;
+}
+
+.l-cores img {
+  width: 280px;
+  height: 90px;
+}
+
+.info-lan {
+  font-family: "Playfair Display", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.l-cores {
+}
+
+.l-cores-titulo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--cor-rx11);
+  letter-spacing: 0.165em;
+}
