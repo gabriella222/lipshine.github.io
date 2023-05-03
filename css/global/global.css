@@ -22,7 +22,7 @@ ul {
 }
 
 p {
-  display: inline-block;
+  display: block;
 }
 
 :root {
@@ -31,4 +31,15 @@ p {
   --cor-c08: #929292;
   --cor-rd1:#B95558;
   --cor-rx11:#534451;
+  --cor-white:#ffffff;
+}
+
+.btn-compra{
+  font-size: 1.5rem;
+  background-color: var(--cor-r10);
+  color: var(--cor-white);
+  padding: 12px 85px;
+  border-radius: 5px;
+  
+
 }
