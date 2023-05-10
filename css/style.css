@@ -6,6 +6,9 @@
 
 /*Home*/
 @import "./home/starshine.css";
+@import "./home/avaliacao.css";
+@import "./home/categoria.css";
+@import "./home/ingredientes.css";
 
 /*Produto*/
 @import "./produto/produto.css";

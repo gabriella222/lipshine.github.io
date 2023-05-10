@@ -1,0 +1,63 @@
+.categorias {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  justify-items: center;
+
+}
+.categorias h3 {
+  text-transform: uppercase;
+  color: var(--cor-cz09);
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 300;
+  font-size: 2.25rem;
+  padding-left: 40px;
+}
+.categorias p {
+  color: var(--cor-white);
+  padding-left: 40px;
+}
+.categorias img {
+  padding-bottom: 40px;
+}
+.batom-liquido-card img{
+  max-height: 550px;
+  max-width: 250px;
+
+}
+
+.caneta-labial img {
+  max-height: 450px;
+  max-width: 50px;
+
+}
+.libalm img{
+  max-height: 400px;
+  max-width: 200px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border-radius: 0px 0px 10px 10px;
+  background-color: var(--cor-r20);
+  padding-top: 200px;
+  padding-bottom: 40px;
+
+  width: 400px;
+}
+
+
+.cards  img{
+  align-self: center;
+}
+.batom-liquido-card{
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 360px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+

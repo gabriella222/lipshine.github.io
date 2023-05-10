@@ -1,0 +1,77 @@
+.avaliacao-bg {
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+.avaliacao-bg > div{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.grid-av {
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.clientes-descricao {
+  padding-left: 150px;
+  background-color: var(--cor-rx12);
+}
+.clientes-descricao h3 {
+  font-size: 2.5rem;
+  line-height: 52px;
+  padding-bottom: 40px;
+  color: var(--cor-r06);
+}
+
+.clientes-descricao p {
+  font-size: 1.25rem;
+  line-height: 32px;
+  max-width: 35ch;
+  color: var(--cor-cz02);
+}
+.clientes-descricao p > span {
+  font-family: "Playfair Display", sans-serif;
+}
+.cliente-avaliacao h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 42px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  position: relative;
+  color: var(--cor-rd01);
+  font-weight: 300;
+  max-width: 35ch;
+}
+.cliente-avaliacao h3::before {
+  content: "";
+  background-image: url("../../img/aspas.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  color: var(--cor-rx03);
+  font-size: 100px;
+  position: absolute;
+  top: -15px;
+  left: -50px;
+  
+}
+.cliente-avaliacao{
+  position: relative;
+  background-color: var(--cor-r09);
+  padding-left: 120px;
+  display: grid;
+  justify-content: start;
+  grid-template-rows: repeat(2,auto);
+}
+
+.cliente-avaliacao p {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 42px;
+  color: var(--cor-pr01);
+  justify-self: end;
+  
+}

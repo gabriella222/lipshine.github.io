@@ -28,18 +28,30 @@ p {
 :root {
   --cor-fundo: #fcfafc;
   --cor-r10: #6d4d69;
+  --cor-r09: #6d4d69;
   --cor-c08: #929292;
-  --cor-rd1:#B95558;
-  --cor-rx11:#534451;
-  --cor-white:#ffffff;
+  --cor-rd1: #b95558;
+  --cor-rx11: #534451;
+  --cor-r06: #81607c;
+  --cor-white: #ffffff;
+  --cor-cz02: #e1dde1;
+  --cor-cz09: #929292;
+  --cor-rd01: #ffedfd;
+  --cor-pr01: #292828;
+  --cor-r20: #373337;
+  --cor-r01: #ffe8fd;
+  --cor-r02:#F2EBF2; 
+  --cor-rx12:#553C52;
+  --cor-rx03:#7A5D76;
+  --cor-v20:#4F0000;
+  --cor-v15:#890000;
+  --cor-r15:#B843AC;
 }
 
-.btn-compra{
+.btn-compra {
   font-size: 1.5rem;
   background-color: var(--cor-r10);
   color: var(--cor-white);
   padding: 12px 85px;
   border-radius: 5px;
-  
-
 }

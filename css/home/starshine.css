@@ -2,14 +2,14 @@
   display: block;
   max-width: 100%;
 }
-.lancamento-starshine{
+.lancamento-starshine {
   padding-bottom: 200px;
 }
 .lancamento-principal {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  gap: 180px;
+  gap: 250px;
   padding-bottom: 160px;
 }
 
@@ -54,33 +54,32 @@
   letter-spacing: 0.165em;
 }
 
-.l-compra{
+.l-compra {
   display: flex;
   flex-direction: column;
   align-items: start;
   color: var(--cor-rx11);
-
 }
 
-.preco-anterior{
+.preco-anterior {
   font-size: 1.5rem;
   padding-bottom: 4px;
 }
-.preco-atual{
+.preco-atual {
   font-size: 4rem;
   padding-bottom: 60px;
 }
 
-.l-descricao{
+.l-descricao {
   font-size: 1.5rem;
   padding-bottom: 20px;
   max-width: 45ch;
 }
-.l-descricao > span{
+.l-descricao > span {
   font-family: "Cinzel Decorative", sans-serif;
   color: var(--cor-r10);
 }
 
-.l-descricao{
+.l-descricao {
   font-size: 1.5rem;
 }

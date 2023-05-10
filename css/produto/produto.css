@@ -1,0 +1,105 @@
+.img-produto img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.img-produto {
+  justify-self: center;
+}
+.produto {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 50% 60%;
+  gap: 100px;
+}
+
+.protudo-info-bg {
+  background-color: var(--cor-r02);
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 80px;
+  border-radius: 10px 10px;
+}
+
+.produto-informacao h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: var(--cor-rx11);
+  padding-bottom: 14px;
+}
+
+.produto-informacao {
+  font-family: "Playfair Display", sans-serif;
+}
+.tags span {
+  font-family: "Playfair Display", sans-serif;
+  background-color: var(--cor-r20);
+  color: var(--cor-white);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.tags {
+  padding-bottom: 44px;
+  border-bottom: 2px solid var(--cor-rd01);
+}
+
+.pd {
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+
+.cores-batom {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 80px;
+
+}
+
+.cor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.prd {
+  margin-top: 300px;
+
+}
+.cr1 {
+  background-color: var(--cor-v20);
+}
+.cr2 {
+  background-color: var(--cor-r10);
+}
+.cr3 {
+  background-color: var(--cor-r15);
+}
+
+.cr4 {
+  background-color: var(--cor-v15);
+}
+
+.propaganda-lipshine{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  gap: 600px;
+}
+
+.propaganda-lipshine a{
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  font-family: "Playfair Display", sans-serif;
+  color: var(--cor-rd1);
+
+
+
+}

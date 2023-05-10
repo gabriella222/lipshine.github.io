@@ -1,0 +1,29 @@
+.footer-bg {
+  background-color: var(--cor-r02);
+}
+
+.footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer h3,p{
+  padding-bottom: 8px;
+}
+
+.rede-sociais{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 12px;
+
+}
+
+.c001 > p{
+  padding-top: 250px;
+}
