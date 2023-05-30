@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500&family=Poppins:wght@200;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/favicon_g.svg" type="image/x-icon">
   <title>Compra</title>
 </head>
 
@@ -18,72 +19,99 @@
     <a href="../index.html"><img class="logolipshine" src="../img/lipshine.svg" alt=""></a>
     <ul class="list-menu">
       <li><a href="#categoria" class="produtoseta">Nossos Produtos</a><img src="../img/seta-menu-produto.svg" alt=""></li>
-      <li><a href="./pages/compra.html">Lançamentos</a></li>
+      <li><a href="../index.html">Lançamentos</a></li>
       <li><a href="#ingredientes">Ingredientes</a></li>
     </ul>
     <div class="itens-menu">
-      <img src="../img/carrinho.svg" alt="">
+      <a href="./compra.html"><img src="../img/carrinho.svg" alt=""></a>
       <a class="link-login" href="http://"> <img src="../img/user.svg" alt=""> Login</a>
     </div>
   </nav>
 
   <div class="compra">
-    <div class="entrega">
-      <h2>Dados da Entrega</h2>
-      <p>Endereço cadastrado</p><span></span>
-      <p>Gabriella Camila, Piracicaba - SP</p>
-      <p>13401 - 566, Rua Andrade Armando, 7666</p>
-      <p>Bairro Corega</p>
-    </div>
+    <div class="ent-pag">
+      <div class="entrega">
+        <h2 class="ft-h2">Dados da Entrega</h2>
+        <p class="endereco-cadas">Endereço cadastrado</p><span></span>
+        <p>Gabriella Camila, Piracicaba - SP</p>
+        <p>13401 - 566, Rua Andrade Armando, 7666</p>
+        <p>Bairro Corega</p>
+      </div>
 
-    <div class="pagamento">
-      <div>
-        <p>PIX</p>
-        <p>Boleto</p>
-        <p>Cartão de crédito</p>
-        <p>Cartão de débito</p>
-      </div>
-    </div>
+      <form action="post" class="post">
+        <div class="pagamento">
+          <div>
+            <h2 class="mt-pag">Método de pagamento</h2>
+            <div class="metodos">
 
-    <form action="post">
-      <div>
-        <label for="">Nome Titular</label>
-        <input action=""></input>
+              <div class="pg-m">
+                <input type="radio">
+                <label>PIX</label>
+              </div>
+
+              <div class="pg-m">
+                <input type="radio">
+                <label>Boleto</label>
+              </div>
+
+              <div class="pg-m">
+                <input type="radio">
+                <label>Cartão de crédito</label>
+              </div>
+
+              <div class="pg-m">
+                <input type="radio">
+                <label>Cartão de débito</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <label for="">Nome Titular</label>
+          <input action=""></input>
+        </div>
+        <div>
+          <label for="">Número cartão</label>
+          <input action=""></input>
+        </div>
+        <div class="condicoes">
+          <div>
+            <label for="">CVV</label>
+            <input action=""></input>
+          </div>
+          <div>
+            <label for="">DATA VALIDADE</label>
+            <input action=""></input>
+          </div>
+          <div>
+            <label for="">PARCELAS</label>
+            <input action=""></input>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="dd-produtos">
+      <h2> Dados do produto</h2>
+      <img class="img_batom" src="../img/batom.png" alt="">
+      <p>Batom <span class="starshine-tt">STARSHINE </span>edição especial cor Pricess</p>
+      <div class="sacola-preco">
+
+
+        <div class="sacola">
+          <p><img class="sacola-compra" src="../img/sacola-compra.svg" alt="">1</p>
+          <div class="background-adi-rem">
+            <img class="sub" src="../img/sub.svg" alt="">
+            <img class="mais" src="../img/mais.svg" alt="">
+          </div>
+          <h3>R$ 109,99</h3>
+        </div>
+
+
       </div>
-      <div>
-        <label for="">Número cartão</label>
-        <input action=""></input>
-      </div>
-      <div>
-        <label for="">CVV</label>
-        <input action=""></input>
-      </div>
-      <div>
-        <label for="">DATA VALIDADE</label>
-        <input action=""></input>
-      </div>
-      <div>
-        <label for="">PARC ELAS</label>
-        <input action=""></input>
-      </div>
-    </form>
+      <a class="btn-compra comp" href="../pages/produto.html">CONFIRMAR!</a>
+    </div>
   </div>
 
-  <div class="">Dados do produto
-
-    <img src="" alt="">
-    <p>Batom <span class="">STARSHINE</span>edição especial cor Pricess</p>
-
-    <div class="sacola-preco">
-      <div class="sacola">
-        <p><img src="" alt="">1</p>
-        <img src="" alt="">
-        <img src=" " alt="">
-      </div>
-      <h3>R$ 109,99</h3>
-    </div>
-    <a class="btn-compra" href="../pages/produto.html">LEVAR AGORA!</a>
-  </div>
 
   <footer class="footer-bg">
     <div class="footer">

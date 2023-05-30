@@ -9,9 +9,10 @@
 @import "./home/avaliacao.css";
 @import "./home/categoria.css";
 @import "./home/ingredientes.css";
+@import "./home/login.css";
 
 /*Produto*/
 @import "./produto/produto.css";
 
 /*Compra*/
-@import "./compra/compra.css";
+@import "./compras/compra.css";

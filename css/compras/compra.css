@@ -1,0 +1,159 @@
+.compra {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 60% auto;
+  padding-bottom: 200px;
+}
+
+.ent-pag {
+  background-color: var(--cor-r10);
+  color: var(--cor-white);
+  border-radius: 10px;
+  padding-left: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.dd-produtos {
+  background-color: var(--cor-r02);
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+.compra h2 {
+  font-family: "Playfair Display", sans-serif;
+  text-transform: uppercase;
+}
+
+.endereco-cadas {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.entrega p {
+  line-height: 1;
+  color: var(--cor-cz02);
+}
+
+.mt-pag {
+  padding-top: 48px;
+  padding-bottom: 22px;
+}
+.metodos {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 42px;
+}
+.pg-m{
+  background-color: var(--cor-r02);
+  border: 1px solid var(--cor-rx12);
+  color: var(--cor-rx12);
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+
+ 
+}
+.metodos label{
+  padding-bottom: 0px;
+}
+
+
+/* .pagamento p::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #000000;
+  position: absolute;
+
+} */
+
+form label {
+  text-transform: uppercase;
+}
+form input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--cor-rx12);
+  background-color: var(--cor-r02);
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+.post {
+  display: grid;
+  gap: 20px;
+}
+.condicoes {
+  display: flex;
+  gap: 20px;
+}
+.condicoes input {
+  width: 80px;
+}
+.dd-produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cor-r10);
+}
+
+.img_batom {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 80px;
+  height: 100px;
+}
+.comp {
+  background-color: var(--cor-r20);
+}
+.dd-produtos p {
+  font-size: 1.5rem;
+}
+.starshine-tt {
+  font-family: "Cinzel Decorative", sans-serif;
+}
+
+.sacola {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  gap: 0px 60px;
+}
+.sacola h3 {
+  grid-column: 2;
+  grid-row: 1/3;
+  font-size: 2.25rem;
+  font-family: "Playfair Display", sans-serif;
+}
+.sacola-compra {
+  width: 20px;
+  height: 25px;
+  padding-right: 10px;
+  align-self: center;
+}
+.background-adi-rem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--cor-r10);
+  padding: 10px 10px;
+  border-radius: 20px;
+  grid-column: 1;
+}
